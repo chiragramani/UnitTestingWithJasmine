@@ -60,20 +60,20 @@ $(
       it("is hidden by default", function() {
         expect($("body").hasClass("menu-hidden")).toBeTruthy();
       });
-    });
 
-    /* A test that ensures the menu changes
+      /* A test that ensures the menu changes
      * visibility when the menu icon is clicked. It has 
        the following expectation: does the menu display when
      * clicked.If the side-menu is already visible and user taps on thee menu-item,
        the side-menu shoude hide
      */
 
-    it("is shown when the menu-icon is clicked and is hidden when clicked again", function() {
-      $(".menu-icon-link").click();
-      expect($("body").hasClass("menu-hidden")).toBeFalsy();
-      $(".menu-icon-link").click();
-      expect($("body").hasClass("menu-hidden")).toBeTruthy();
+      it("is shown when the menu-icon is clicked and is hidden when clicked again", function() {
+        $(".menu-icon-link").click();
+        expect($("body").hasClass("menu-hidden")).toBeFalsy();
+        $(".menu-icon-link").click();
+        expect($("body").hasClass("menu-hidden")).toBeTruthy();
+      });
     });
 
     /* A test suite named "Initial Entries" */
