@@ -11,6 +11,6 @@ This repository contains resources for the Feed Reader Testing project.
 
 ## Setup
 
-Feed Reader website should run without any additional setup.
+You can either clone this repository or download it. After this, please run index.html in your web-browser and the Feed Reader website should run without any other additional setup.
 
 
